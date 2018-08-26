@@ -1,0 +1,28 @@
+.title {
+  font-size: 50px;
+  margin: 50 0 50;
+  font-style: oblique;
+}
+
+.content {
+  text-align: center;
+  font-size: 22px;
+}
+
+.img {
+  padding: 20;
+}
+
+.button {
+    background-color: #33B4BD; /* Aqua */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
